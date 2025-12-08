@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\r\n\ Klasse\ Knoten\ als\ Bestandteil\ eines\ geordneten\ Bin\u00E4rbaums.\r\n\ (Implementierung\ mit\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=datenNeu
+comment1.target=Knoten(Woerterbucheintrag)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Knoten\ ohne\ linken\ und\ rechten\ Nachfolger,\ d.h.\ es\ werden\ \r\n\ zwei\ Abschluss-Objekte\ erzeugt\ und\ den\ entsprechenden\ Referenzattributen\ zugewiesen.\r\n\ @param\ datenNeu\ Referenz\ auf\ ein\ Objekt\ der\ KLasse\ Woerterbucheintrag,\ das\ vom\ Knoten\ verwaltet\ wird.\r\n
+comment2.params=datenNeu
+comment2.target=Baumelement\ Einf\u00FCgen(Woerterbucheintrag)
+comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ (Woerterbucheintrag),\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \r\n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \r\n\ bleibt\ erhalten.\r\n\ @param\ datenNeu\ einzuf\u00FCgendes\ Datenelement\ (Woerterbucheintrag)\r\n\ @return\ Referenz\ auf\ das\ eigene\ Objekt\r\n
+comment3.params=aktTiefe
+comment3.target=int\ H\u00F6heGeben(int)
+comment3.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\r\n
+comment4.params=xmin\ xmax\ y\ dy\ symbolVorg\u00E4nger
+comment4.target=void\ KnotenZeichnen(int,\ int,\ int,\ int,\ KnotenSymbol)
+comment4.text=\r\n\ Zeichnet\ den\ Knoten\ passend\ im\ Zeichenfenster,\ erg\u00E4nzt\ ggf.\ noch\ eine\ Kante\ zum\ Vorg\u00E4nger\r\n\ @param\ xmin\ der\ minimale\ Wert\ des\ Breitenbereichs\r\n\ @param\ xmax\ der\ maximale\ Wert\ des\ Breitenbereichs\r\n\ @param\ y\ der\ y-Wert\ der\ Ebene\r\n\ @param\ dy\ der\ Unerschied\ zur\ n\u00E4chsten\ Ebene\r\n\ @param\ symbolVorg\u00E4nger\ n\u00F6tig,\ um\ die\ Kante\ zu\ zeichnen\:\ das\ eigene\ Symbol\ ->\ ist\ f\u00FCr\ den\ neuen\ Knoten\ das\ Vorg\u00E4ngersymbol\r\n
+numComments=5

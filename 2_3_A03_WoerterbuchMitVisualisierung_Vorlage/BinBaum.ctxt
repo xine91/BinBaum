@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinBaum
+comment0.text=\r\n\ Die\ Klasse\ Binbaum\ ist\ die\ Grundstruktur\ eines\ geordneten\ Bin\u00E4rbaums.\ \r\n\ Konkret\ wird\ hier\ der\ Bin\u00E4rbaum\ genutzt\ um\ ein\ einfaches\ W\u00F6rterbuch\ umzusetzen,\ \r\n\ deshalb\ sind\ die\ Daten\ von\ der\ Klasse\ Woerterbucheintrag.\r\n\ Die\ Methoden\ die\ ein\ Objekt\ dieser\ Klasse\ anbietet,\ leiten\ den\ Aufruf\ an\ den\r\n\ Wurzelknoten\ weiter,\ wenn\ der\ Baum\ nicht\ leer\ ist.\r\n\ (Implementierung\ mit\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=datenNeu
+comment1.target=void\ Einf\u00FCgen(Woerterbucheintrag)
+comment1.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ sortiert\ in\ den\ geordneten\ Bin\u00E4rbaum\ ein,\ \r\n\ d.h.\ die\ Eigenschaft,\ dass\ der\ Baum\ geordnet\ ist\ bleibt\ bei\ jedem\ \r\n\ Einf\u00FCgevorgang\ erhalten.\r\n\ @param\ datenNeu\ neues\ Datenelement\r\n
+comment2.params=
+comment2.target=int\ H\u00F6heGeben()
+comment2.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @return\ H\u00F6he\ des\ Baums\ \r\n
+comment3.params=
+comment3.target=void\ BaumZeichnen()
+comment3.text=\r\n\ Zeichnet\ den\ Baum\r\n
+numComments=4

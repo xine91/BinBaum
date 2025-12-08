@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=KantenSymbol
+comment0.text=\r\n\ Verwaltet\ ein\ Kantensymbol\ in\ einem\ Graph\r\n\ \r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=start\ ende\ gerichtet\ gewicht\ breite\ farbe
+comment1.target=KantenSymbol(KnotenSymbol,\ KnotenSymbol,\ boolean,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ Legt\ das\ Symbol\ an\ und\ besetzt\ die\ Attribute.\r\n\ @param\ start\ Startknoten\r\n\ @param\ ende\ Endknoten\r\n\ @param\ gerichtet\ wenn\ wahr,\ ist\ der\ Weg\ gerichtet\r\n\ @param\ gewicht\ Kantengewicht\r\n\ @param\ breite\ Breite\ der\ Linie\r\n\ @param\ farbe\ Farbe\ der\ Linie\r\n
+comment2.params=
+comment2.target=void\ DarstellungAktualisieren()
+comment2.text=\r\n\ Aktualisiert\ das\ Symbol\r\n
+comment3.params=
+comment3.target=void\ Entfernen()
+comment3.text=\r\n\ Entfernt\ das\ Kantensymbol\ aus\ der\ Anzeige\r\n
+comment4.params=f
+comment4.target=void\ FarbeSetzen(java.lang.String)
+comment4.text=\r\n\ Setzt\ die\ Farbe\ der\ Darstellung\r\n\ @param\ f\ die\ (neue)\ Farbe\r\n
+comment5.params=
+comment5.target=KnotenSymbol\ StartsymbolGeben()
+comment5.text=\r\n\ Meldet\ den\ Startknoten\r\n\ @return\ Startknoten\r\n
+comment6.params=
+comment6.target=KnotenSymbol\ ZielsymbolGeben()
+comment6.text=\r\n\ Meldet\ den\ Zielknoten\r\n\ @return\ Zielknoten\r\n
+numComments=7
