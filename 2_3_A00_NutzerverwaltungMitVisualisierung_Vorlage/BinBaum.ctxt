@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BinBaum
+comment0.text=\r\n\ Die\ Klasse\ Binbaum\ ist\ die\ Grundstruktur\ eines\ geordneten\ Bin\u00E4rbaums\r\n\ und\ hier\ zur\ Verwaltung\ von\ Usern\ eingesetzt\ wird.\r\n\ Die\ Methoden\ die\ ein\ Objekt\ dieser\ Klasse\ anbietet,\ leiten\ den\ Aufruf\ an\ den\r\n\ Wurzelknoten\ weiter,\ wenn\ der\ Baum\ nicht\ leer\ ist.\r\n\ (Implementierung\ ohne\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 24.5.24\r\n
+comment1.params=
+comment1.target=BinBaum()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Binbaum\:\r\n\ Ein\ leerer\ Baum\ wird\ erzeugt.\r\n
+comment2.params=datenNeu
+comment2.target=void\ Einf\u00FCgen(User)
+comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ sortiert\ in\ den\ geordneten\ Bin\u00E4rbaum\ ein,\ \r\n\ d.h.\ die\ Eigenschaft,\ dass\ der\ Baum\ geordnet\ ist\ bleibt\ bei\ jedem\ \r\n\ Einf\u00FCgevorgang\ erhalten.\r\n\ @param\ datenNeu\ neues\ Datenelement\r\n
+comment3.params=
+comment3.target=void\ BaumZeichnen()
+comment3.text=\r\n\ Zeichnet\ den\ Baum\r\n
+comment4.params=
+comment4.target=int\ H\u00F6heGeben()
+comment4.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @return\ H\u00F6he\ des\ Baums\ \r\n
+numComments=5

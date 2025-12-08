@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\r\n\ Klasse\ Knoten\ zur\ Verwaltung\ von\ Usern\ als\ Datenelement\ \r\n\ innerhalb\ eines\ geordneten\ Bin\u00E4rbaums.\r\n\ (Implementierung\ ohne\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=datenNeu
+comment1.target=Knoten(User)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Knoten\ ohne\ linken\ und\ rechten\ Nachfolger,\ \r\n\ d.h.\ die\ entsprechenden\ Referenzattribute\ haben\ den\ "Wert"\ null.\r\n\ @param\ datenNeu\ Referenz\ auf\ das\ Datenelement,\ das\ vom\ Knoten\ verwaltet\ wird.\r\n
+comment2.params=datenNeu
+comment2.target=void\ Einf\u00FCgen(User)
+comment2.text=\r\n\ F\u00FCgt\ einen\ Usern\ als\ Datenelement,\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \r\n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \r\n\ bleibt\ erhalten.\r\n\ @param\ datenNeu\ einzuf\u00FCgender\ User\ als\ Datenelement\ \r\n
+comment3.params=
+comment3.target=User\ DatenGeben()
+comment3.text=\r\n\ Geben-Methode\ zu\ den\ Daten\ \r\n\ @return\ Referenz\ auf\ die\ Daten\r\n
+comment4.params=
+comment4.target=Knoten\ LinkerNachfolgerGeben()
+comment4.text=\r\n\ Geben-Methode\ zum\ linken\ Nachfolger\r\n\ @return\ Referenz\ auf\ LinkerNachfolger\r\n
+comment5.params=
+comment5.target=Knoten\ RechterNachfolgerGeben()
+comment5.text=\r\n\ Geben-Methode\ zum\ rechten\ Nachfolger\r\n\ @return\ Referenz\ auf\ RechterNachfolger\r\n
+comment6.params=xmin\ xmax\ y\ dy\ symbolVorg\u00E4nger
+comment6.target=void\ KnotenZeichnen(int,\ int,\ int,\ int,\ KnotenSymbol)
+comment6.text=\r\n\ Zeichnet\ den\ Knoten\ passend\ im\ Zeichenfenster,\ erg\u00E4nzt\ ggf.\ noch\ eine\ Kante\ zum\ Vorg\u00E4nger\r\n\ @param\ xmin\ der\ minimale\ Wert\ des\ Breitenbereichs\r\n\ @param\ xmax\ der\ maximale\ Wert\ des\ Breitenbereichs\r\n\ @param\ y\ der\ y-Wert\ der\ Ebene\r\n\ @param\ dy\ der\ Unerschied\ zur\ n\u00E4chsten\ Ebene\r\n\ @param\ symbolVorg\u00E4nger\ n\u00F6tig,\ um\ die\ Kante\ zu\ zeichnen\:\ das\ eigene\ Symbol\ ->\ ist\ f\u00FCr\ den\ neuen\ Knoten\ das\ Vorg\u00E4ngersymbol\r\n
+comment7.params=aktTiefe
+comment7.target=int\ H\u00F6heGeben(int)
+comment7.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\r\n
+numComments=8
