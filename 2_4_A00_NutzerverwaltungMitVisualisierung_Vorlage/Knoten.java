@@ -190,7 +190,17 @@ class Knoten extends Baumelement
         daten.InformationAusgeben(); 
         rechterNachfolger.InorderAusgeben();
     }
-
+     
+    /**
+     * Gibt alle in den Datenelementen eines Baums gespeicherten Informationen Inorder auf der Konsole aus.
+     */
+    void PreorderAusgeben() 
+    {
+        daten.InformationAusgeben(); 
+        linkerNachfolger.InorderAusgeben();
+        rechterNachfolger.InorderAusgeben();
+    }
+    
     /**
      * Zeichnet den Knoten passend im Zeichenfenster, ergänzt ggf. noch eine Kante zum Vorgänger
      * @param xmin der minimale Wert des Breitenbereichs

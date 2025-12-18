@@ -62,6 +62,8 @@ abstract class Baumelement
      */
     abstract void InorderAusgeben();
 
+    abstract void PreorderAusgeben();
+    
     /**
      * Zeichnet den Knoten passend im Zeichenfenster, ergänzt ggf. noch eine Kante zum Vorgänger
      * @param xmin der minimale Wert des Breitenbereichs

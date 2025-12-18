@@ -93,7 +93,12 @@ class Abschluss extends Baumelement
     {
         //tue nichts
     }
-
+    
+     @Override void PreorderAusgeben()
+    {
+        //tue nichts
+    }
+    
     /**
      * Zeichnet den Knoten passend im Zeichenfenster, ergänzt ggf. noch eine Kante zum Vorgänger
      * @param xmin der minimale Wert des Breitenbereichs
