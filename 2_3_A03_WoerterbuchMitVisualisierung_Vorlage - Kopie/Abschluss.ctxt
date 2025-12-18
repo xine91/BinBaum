@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Abschluss
+comment0.text=\r\n\ Klasse\ Abschluss\ als\ Bestandteil\ eines\ geordneten\ Bin\u00E4rbaums.\r\n\ (Implementierung\ mit\ dem\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=
+comment1.target=Abschluss()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Abschluss\r\n
+comment2.params=datenNeu
+comment2.target=Baumelement\ Einf\u00FCgen(Woerterbucheintrag)
+comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ in\ die\ bestehende\ Datenstruktur\ ein,\ indem\ es\ einen\ neuen\ Knoten\ \r\n\ (mit\ zwei\ Abschluss-Objekten\ als\ Nachfolger)\ erzeugt\ und\ eine\ Referenz\ auf\ diesen\ Knoten\r\n\ zur\u00FCckgibt.\ Das\ Abschluss-Objekt,\ dass\ diese\ Methode\ ausf\u00FChrt,\ wird\ dabei\ aus\ dem\ Baum\ entfernt.\r\n\ @param\ datenNeu\ einzuf\u00FCgendes\ Datenelement\ \r\n\ @return\ Referenz\ auf\ den\ neu\ erzeugten\ Knoten\r\n
+comment3.params=aktTiefe
+comment3.target=int\ H\u00F6heGeben(int)
+comment3.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ \u00FCbergebene\ H\u00F6he\ -1,\ da\ hier\ beim\ Abschluss\ das\ Ende\ eines\ Astes\ erreicht\ ist\ und\ \r\n\ die\ Abschlusselemente\ bei\ der\ H\u00F6henberechnung\ nicht\ einbezogen\ werden.\r\n
+comment4.params=xmin\ xmax\ y\ dy\ symbolVorg\u00E4nger
+comment4.target=void\ KnotenZeichnen(int,\ int,\ int,\ int,\ KnotenSymbol)
+comment4.text=\r\n\ Zeichnet\ den\ Knoten\ passend\ im\ Zeichenfenster,\ erg\u00E4nzt\ ggf.\ noch\ eine\ Kante\ zum\ Vorg\u00E4nger\r\n\ @param\ xmin\ der\ minimale\ Wert\ des\ Breitenbereichs\r\n\ @param\ xmax\ der\ maximale\ Wert\ des\ Breitenbereichs\r\n\ @param\ y\ der\ y-Wert\ der\ Ebene\r\n\ @param\ dy\ der\ Unerschied\ zur\ n\u00E4chsten\ Ebene\r\n\ @param\ symbolVorg\u00E4nger\ n\u00F6tig,\ um\ die\ Kante\ zu\ zeichnen\:\ das\ eigene\ Symbol\ ->\ ist\ f\u00FCr\ den\ neuen\ Knoten\ das\ Vorg\u00E4ngersymbol\r\n
+numComments=5

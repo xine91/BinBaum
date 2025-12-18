@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Baumelement
+comment0.text=\r\n\ Abstrakte\ Klasse\ Baumelement\ zur\ Realisierung\ einer\ Baumstruktur\ mit\ Hilfe\ des\ Entwurfsmusters\r\n\ Kompositum\:\ Die\ Klasse\ legt\ ausschlie\u00DFlich\ die\ Schnittstelle\ f\u00FCr\ die\ Klassen\r\n\ Knoten\ und\ Abschluss\ in\ Form\ von\ Methoden\ fest.\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=
+comment1.target=Baumelement()
+comment1.text=\r\n\ Der\ Konstruktor\ ist\ nur\ der\ Vollst\u00E4ndigkeit\ halber\ angegeben.\r\n
+comment2.params=datenNeu
+comment2.target=Baumelement\ Einf\u00FCgen(Woerterbucheintrag)
+comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement,\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \r\n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \r\n\ bleibt\ erhalten.\r\n\ @param\ datenNeu\ das\ Datenelement\ des\ einzuf\u00FCgenden\ Knoten\r\n\ @return\ (neues)\ Nachfolgeelement\ des\ Aufrufers\r\n
+comment3.params=aktTiefe
+comment3.target=int\ H\u00F6heGeben(int)
+comment3.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\r\n
+comment4.params=xmin\ xmax\ y\ dy\ symbolVorg\u00E4nger
+comment4.target=void\ KnotenZeichnen(int,\ int,\ int,\ int,\ KnotenSymbol)
+comment4.text=\r\n\ Zeichnet\ den\ Knoten\ passend\ im\ Zeichenfenster,\ erg\u00E4nzt\ ggf.\ noch\ eine\ Kante\ zum\ Vorg\u00E4nger\r\n\ @param\ xmin\ der\ minimale\ Wert\ des\ Breitenbereichs\r\n\ @param\ xmax\ der\ maximale\ Wert\ des\ Breitenbereichs\r\n\ @param\ y\ der\ y-Wert\ der\ Ebene\r\n\ @param\ dy\ der\ Unterschied\ zur\ n\u00E4chsten\ Ebene\r\n\ @param\ symbolVorg\u00E4nger\ n\u00F6tig,\ um\ die\ Kante\ zu\ zeichnen\:\ das\ eigene\ Symbol\ ->\ ist\ f\u00FCr\ den\ neuen\ Knoten\ das\ Vorg\u00E4ngersymbol\r\n
+numComments=5
