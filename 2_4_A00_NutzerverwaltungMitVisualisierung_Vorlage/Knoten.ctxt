@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\r\n\ Klasse\ Knoten\ als\ Bestandteil\ eines\ geordneten\ Bin\u00E4rbaums.\r\n\ (Implementierung\ mit\ Entwurfsmuster\ Kompositum)\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment1.params=datenNeu
+comment1.target=Knoten(User)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Knoten\ ohne\ linken\ und\ rechten\ Nachfolger,\ d.h.\ es\ werden\ \r\n\ zwei\ Abschluss-Objekte\ erzeugt\ und\ den\ entsprechenden\ Referenzattributen\ zugewiesen.\r\n\ @param\ datenNeu\ Referenz\ auf\ ein\ Objekt\ der\ KLasse\ User,\ das\ vom\ Knoten\ verwaltet\ wird.\r\n
+comment2.params=datenNeu\ linkerNachfolgerNeu\ rechterNachfolgerNeu
+comment2.target=Knoten(User,\ Baumelement,\ Baumelement)
+comment2.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Knoten\ mit\ Nachfolgern.\r\n\ @param\ datenNeu\ Referenz\ auf\ ein\ Objekt\ der\ Klasse\ User,\ das\ vom\ Knoten\ verwaltet\ wird.\r\n\ @param\ linkerNachfolgerNeu\ der\ linke\ Nachfolger\ des\ Knotens\r\n\ @param\ rechterNachfolgerNeu\ der\ rechte\ Nachfolger\ des\ Knotens\r\n
+comment3.params=datenNeu
+comment3.target=Baumelement\ Einf\u00FCgen(User)
+comment3.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ (User),\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \r\n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \r\n\ bleibt\ erhalten.\r\n\ @param\ datenNeu\ einzuf\u00FCgendes\ Datenelement\ (User)\r\n\ @return\ Referenz\ auf\ das\ eigene\ Objekt\r\n
+comment4.params=suchSchl\u00FCssel
+comment4.target=User\ Suchen(java.lang.String)
+comment4.text=\r\n\ Sucht\ ein\ Datenelement\ (User),\ das\ \u00FCber\ seinen\ Schl\u00FCssel\ identifiziert\ wird\r\n\ und\ gibt\ dieses\ aus.\r\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \r\n\ @return\ gesuchtes\ Datenelement\ \ (User)\ bzw.\ null,\ falls\ die\ Suche\ erfolglos\ ist\r\n
+comment5.params=suchSchl\u00FCssel
+comment5.target=boolean\ IstVorhanden(java.lang.String)
+comment5.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ ein\ Datenelement\ (User)\ mit\ dem\ eingegebenen\ Schl\u00FCssel\ (in\ Form\ einer\r\n\ Zeichenkette)\ vorhanden\ ist.\ \r\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \r\n\ @return\ true,\ im\ Erfolgsfall,\ false\ sonst.\r\n
+comment6.params=aktTiefe
+comment6.target=int\ H\u00F6heGeben(int)
+comment6.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\r\n
+comment7.params=suchSchl\u00FCssel\ tiefe
+comment7.target=int\ TiefeGeben(java.lang.String,\ int)
+comment7.text=\r\n\ Gibt\ die\ Tiefe\ des\ Knotens\ an,\ in\ dem\ ein\ Datenelement\ mit\ dem\ Schl\u00FCssel\ suchSchl\u00FCssel\ gespeichert\ ist.\r\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \r\n\ @return\ Tiefe\ als\ positive\ Zahl,\ bzw.\ -1\ falls\ der\ suchSchl\u00FCssel\ nicht\ vorhanden\ ist.\r\n
+comment8.params=
+comment8.target=void\ InorderAusgeben()
+comment8.text=\r\n\ Gibt\ alle\ in\ den\ Datenelementen\ eines\ Baums\ gespeicherten\ Informationen\ Inorder\ auf\ der\ Konsole\ aus.\r\n
+comment9.params=xmin\ xmax\ y\ dy\ symbolVorg\u00E4nger
+comment9.target=void\ KnotenZeichnen(int,\ int,\ int,\ int,\ KnotenSymbol)
+comment9.text=\r\n\ Zeichnet\ den\ Knoten\ passend\ im\ Zeichenfenster,\ erg\u00E4nzt\ ggf.\ noch\ eine\ Kante\ zum\ Vorg\u00E4nger\r\n\ @param\ xmin\ der\ minimale\ Wert\ des\ Breitenbereichs\r\n\ @param\ xmax\ der\ maximale\ Wert\ des\ Breitenbereichs\r\n\ @param\ y\ der\ y-Wert\ der\ Ebene\r\n\ @param\ dy\ der\ Unerschied\ zur\ n\u00E4chsten\ Ebene\r\n\ @param\ symbolVorg\u00E4nger\ n\u00F6tig,\ um\ die\ Kante\ zu\ zeichnen\:\ das\ eigene\ Symbol\ ->\ ist\ f\u00FCr\ den\ neuen\ Knoten\ das\ Vorg\u00E4ngersymbol\r\n
+numComments=10
